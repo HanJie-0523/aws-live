@@ -6,7 +6,7 @@ from config import *
 
 app = Flask(__name__)
 
-bucket = custombucketw
+bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
